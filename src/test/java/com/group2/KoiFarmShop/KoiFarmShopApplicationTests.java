@@ -20,7 +20,7 @@ import static org.junit.jupiter.api.Assertions.assertTrue;
 import static org.mockito.Mockito.when;
 import static org.springframework.test.util.AssertionErrors.assertEquals;
 
-@SpringBootTest
+@SpringBootTest(classes = KoiFarmShopApplication.class)
 class KoiFarmShopApplicationTests {
 
 	@Mock
@@ -44,5 +44,5 @@ class KoiFarmShopApplicationTests {
 		assertTrue(otp.matches("\\d+"), "OTP chỉ chứa các chữ số");
 	}
 
-	
+
 }
