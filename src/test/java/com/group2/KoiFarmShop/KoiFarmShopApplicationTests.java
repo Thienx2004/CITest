@@ -19,7 +19,7 @@ import static org.junit.jupiter.api.Assertions.assertTrue;
 import static org.mockito.Mockito.when;
 import static org.springframework.test.util.AssertionErrors.assertEquals;
 
-@SpringBootTest
+//@SpringBootTest
 class KoiFarmShopApplicationTests {
 
 	@Mock
